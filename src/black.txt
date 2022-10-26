@@ -1,1 +1,2 @@
-Strong typing is for \BLANK.
+Strong typing is \BLANK.
+The real difference between DuckDB and MS Excel is \BLANK.

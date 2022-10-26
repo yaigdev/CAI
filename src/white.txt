@@ -1,0 +1,5 @@
+A conspiracy by Big Compiler to use more CPU
+Another example how anything can be solved with a layer of indirection.
+For Cowards
+Probably the reason us-west-2 is down.
+The wrost possible use of WASM.
