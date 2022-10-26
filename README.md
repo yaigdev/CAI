@@ -24,8 +24,28 @@ Contributing
 
 You can submit pull requests to propose new cards; see `src/black.txt` and `src/white.txt`.
 
+
 Building
 --------
+
+For MacOS users, do the following to setup your env to build:
+
+1. Download and install the BasicTex.pkg file here(https://www.tug.org/mactex/morepackages.html)
+
+2. Run the following commands in terminal
+
+3. Ensure homebrew is installed.
+
+`
+# Update tlgmr
+sudo tlmgr update --self
+
+# Install standalone package
+sudo tlmgr install standalone
+
+# Install convert
+brew install imagemagick
+`
 
 The top-level Makefile can be used to recompile printable PDF and PNG versions of the cards:
 
@@ -42,9 +62,8 @@ Printed copies
 
 Since Cards Against Humanity was released under a BY-NC-SA 2.0 license, the "non-commercial" aspect of that license implies that we cannot sell you a copy of this game.  A small number of copies were provided as prizes at the [Asiacrypt 2018 rump session](https://asiacrypt.iacr.org/2018/rumpsession.html) and the [Eurocrypt 2019 rump session](https://eurocrypt.iacr.org/2019/rumpsession.html).  There may or may not be printed copies available as prizes at future rump sessions — have a funny rump session talk prepared, just in case!
 
-You can make your own printed copy in three ways.  
+You can make your own printed copy in three ways.
 
-1. **Print at home.**  Under the `PDFs-to-print` folder, there are printable PDFs of all the cards, formatted for 2-sided printing on either A4 or letter paper.  You'll use up all the toner if print pages and pages of all-black backgrounds, so you should probably use the gray background.  
+1. **Print at home.**  Under the `PDFs-to-print` folder, there are printable PDFs of all the cards, formatted for 2-sided printing on either A4 or letter paper.  You'll use up all the toner if print pages and pages of all-black backgrounds, so you should probably use the gray background.
 2. **Print at a local printshop.** You could also take the PDFs to your local print shop and have them print it on cardstock (80-pound or higher).  Use a paper cutter to cut out the cards.
 3. **Print via a commercial custom card manufacturer.**  We printed our version of Cards Against Cryptography using MakePlayingCards.com.  The folder `PNGs-to-print` contains the PNG images required to print a deck of cards at MakePlayingCards.com's [US Game Deck Size](https://www.makeplayingcards.com/design/custom-us-game-deck-size-cards.html), along with a [bi-fold (4 side) instruction booklet](https://www.makeplayingcards.com/pops/booklet-guide.html).  At the time we wrote this, 1 set of cards, along with a booklet and plain white box, is $34.35 (US dollars), plus shipping (approximately $10 for standard shipping to most countries).  Uploading the images and configure the project takes about 10 minutes.
-
