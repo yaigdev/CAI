@@ -1,2 +1,3 @@
 Strong typing is \BLANK.
+The difference between Google and AWS is basically that \BLANK.
 The real difference between DuckDB and MS Excel is \BLANK.
