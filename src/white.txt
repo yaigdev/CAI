@@ -4,3 +4,4 @@ For Cowards
 Probably the reason us-west-2 is down.
 The fact that AWS is 100% ok looking stupid and Google is deeply not.
 The wrost possible use of WASM.
+More of a ditch than a moat.
